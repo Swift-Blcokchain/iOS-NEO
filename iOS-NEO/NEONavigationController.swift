@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NEONavigationController.swift
 //  iOS-NEO
 //
 //  Created by afer on 2017/9/10.
@@ -7,14 +7,16 @@
 //
 
 import UIKit
-import NeoSwift
 
-class ViewController: UIViewController {
+class NEONavigationController: UINavigationController {
 
+   
     override func viewDidLoad() {
         super.viewDidLoad()
+
+
     }
 
+   
 
 }
-

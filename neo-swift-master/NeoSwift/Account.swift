@@ -10,6 +10,8 @@ import Foundation
 import Neowallet
 import Security
 
+
+
 public class Account {
     public var wif: String
     public var publicKey: Data
@@ -17,12 +19,16 @@ public class Account {
     public var address: String
     public var hashedSignature: Data
     
-    lazy var publicKeyString : String = {
+    public lazy var publicKeyString : String = {
         return publicKey.bytes.toHexString()
     }()
     
-    lazy var privateKeyString : String = {
+    public lazy var privateKeyString : String = {
         return privateKey.bytes.toHexString()
+    }()
+    
+    public lazy var hashedSignatureString : String = {
+        return hashedSignature.bytes.toHexString()
     }()
     
     public init?(wif: String) {
@@ -64,7 +70,7 @@ public class Account {
         self.hashedSignature = wallet.hashedSignature()
     }
     
-    func getBalance(completion: @escaping(Assets?, Error?) -> Void) {
+    public func getBalance(completion: @escaping(Assets?, Error?) -> Void) {
         NeoClient.shared.getAssets(for: self.address, params: []) { result in
             switch result {
             case .failure(let error):

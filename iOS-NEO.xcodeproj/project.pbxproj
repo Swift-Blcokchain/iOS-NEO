@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3842E7891F6565230095E4F2 /* NEOWalletsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3842E7881F6565230095E4F2 /* NEOWalletsTableViewController.swift */; };
+		3842E78D1F65699B0095E4F2 /* NEOWalletsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3842E78C1F65699B0095E4F2 /* NEOWalletsTableViewCell.swift */; };
+		3842E7901F65729E0095E4F2 /* NEOWalletsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3842E78F1F65729E0095E4F2 /* NEOWalletsManager.swift */; };
+		3842E7931F6574D70095E4F2 /* NEOAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3842E7921F6574D70095E4F2 /* NEOAlertView.swift */; };
+		3842E7981F6594650095E4F2 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3842E7961F6591B20095E4F2 /* Keychain.swift */; };
+		3842E79B1F65B0790095E4F2 /* SAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3842E79A1F65B0790095E4F2 /* SAccount.swift */; };
 		38627D6F1F65040800B357D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38627D6E1F65040800B357D1 /* AppDelegate.swift */; };
-		38627D711F65040800B357D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38627D701F65040800B357D1 /* ViewController.swift */; };
 		38627D741F65040800B357D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38627D721F65040800B357D1 /* Main.storyboard */; };
 		38627D761F65040800B357D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38627D751F65040800B357D1 /* Assets.xcassets */; };
 		38627D791F65040800B357D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38627D771F65040800B357D1 /* LaunchScreen.storyboard */; };
@@ -19,6 +24,8 @@
 		38649AA71F650999004223D7 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38649A9B1F6506F8004223D7 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38649AA91F650999004223D7 /* SwiftBaseX.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38649A9C1F6506F8004223D7 /* SwiftBaseX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38649AAB1F650999004223D7 /* NeoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38627DA21F65066F00B357D1 /* NeoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		38649AB01F653327004223D7 /* NEOMainPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38649AAF1F653327004223D7 /* NEOMainPageTableViewController.swift */; };
+		38649AB21F653560004223D7 /* NEONavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38649AB11F653560004223D7 /* NEONavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,9 +83,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3842E7881F6565230095E4F2 /* NEOWalletsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEOWalletsTableViewController.swift; sourceTree = "<group>"; };
+		3842E78C1F65699B0095E4F2 /* NEOWalletsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEOWalletsTableViewCell.swift; sourceTree = "<group>"; };
+		3842E78F1F65729E0095E4F2 /* NEOWalletsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEOWalletsManager.swift; sourceTree = "<group>"; };
+		3842E7921F6574D70095E4F2 /* NEOAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEOAlertView.swift; sourceTree = "<group>"; };
+		3842E7961F6591B20095E4F2 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		3842E7991F659A960095E4F2 /* iOS-NEO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iOS-NEO.entitlements"; sourceTree = "<group>"; };
+		3842E79A1F65B0790095E4F2 /* SAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAccount.swift; sourceTree = "<group>"; };
 		38627D6B1F65040800B357D1 /* iOS-NEO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-NEO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38627D6E1F65040800B357D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		38627D701F65040800B357D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		38627D731F65040800B357D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38627D751F65040800B357D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38627D781F65040800B357D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -92,6 +105,8 @@
 		38627D9C1F65066F00B357D1 /* NeoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NeoSwift.xcodeproj; path = "neo-swift-master/NeoSwift.xcodeproj"; sourceTree = "<group>"; };
 		38649A9B1F6506F8004223D7 /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38649A9C1F6506F8004223D7 /* SwiftBaseX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftBaseX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38649AAF1F653327004223D7 /* NEOMainPageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEOMainPageTableViewController.swift; sourceTree = "<group>"; };
+		38649AB11F653560004223D7 /* NEONavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEONavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +134,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3842E78B1F65697A0095E4F2 /* NEOWallets */ = {
+			isa = PBXGroup;
+			children = (
+				3842E7881F6565230095E4F2 /* NEOWalletsTableViewController.swift */,
+				3842E78C1F65699B0095E4F2 /* NEOWalletsTableViewCell.swift */,
+			);
+			path = NEOWallets;
+			sourceTree = "<group>";
+		};
+		3842E78E1F65727C0095E4F2 /* NEOManagers */ = {
+			isa = PBXGroup;
+			children = (
+				3842E78F1F65729E0095E4F2 /* NEOWalletsManager.swift */,
+				3842E79A1F65B0790095E4F2 /* SAccount.swift */,
+			);
+			path = NEOManagers;
+			sourceTree = "<group>";
+		};
+		3842E7911F6574BF0095E4F2 /* units */ = {
+			isa = PBXGroup;
+			children = (
+				3842E7921F6574D70095E4F2 /* NEOAlertView.swift */,
+			);
+			path = units;
+			sourceTree = "<group>";
+		};
+		3842E7941F6591B20095E4F2 /* KeychainAccess */ = {
+			isa = PBXGroup;
+			children = (
+				3842E7961F6591B20095E4F2 /* Keychain.swift */,
+			);
+			path = KeychainAccess;
+			sourceTree = "<group>";
+		};
 		38627D621F65040800B357D1 = {
 			isa = PBXGroup;
 			children = (
@@ -144,12 +193,18 @@
 		38627D6D1F65040800B357D1 /* iOS-NEO */ = {
 			isa = PBXGroup;
 			children = (
+				3842E7991F659A960095E4F2 /* iOS-NEO.entitlements */,
+				3842E7941F6591B20095E4F2 /* KeychainAccess */,
+				3842E7911F6574BF0095E4F2 /* units */,
+				3842E78E1F65727C0095E4F2 /* NEOManagers */,
+				3842E78B1F65697A0095E4F2 /* NEOWallets */,
 				38627D6E1F65040800B357D1 /* AppDelegate.swift */,
-				38627D701F65040800B357D1 /* ViewController.swift */,
 				38627D721F65040800B357D1 /* Main.storyboard */,
 				38627D751F65040800B357D1 /* Assets.xcassets */,
 				38627D771F65040800B357D1 /* LaunchScreen.storyboard */,
 				38627D7A1F65040800B357D1 /* Info.plist */,
+				38649AAF1F653327004223D7 /* NEOMainPageTableViewController.swift */,
+				38649AB11F653560004223D7 /* NEONavigationController.swift */,
 			);
 			path = "iOS-NEO";
 			sourceTree = "<group>";
@@ -262,6 +317,11 @@
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 4FGU9379L5;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					38627D7E1F65040800B357D1 = {
 						CreatedOnToolsVersion = 8.3.1;
@@ -354,8 +414,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38627D711F65040800B357D1 /* ViewController.swift in Sources */,
+				3842E7981F6594650095E4F2 /* Keychain.swift in Sources */,
+				38649AB01F653327004223D7 /* NEOMainPageTableViewController.swift in Sources */,
 				38627D6F1F65040800B357D1 /* AppDelegate.swift in Sources */,
+				38649AB21F653560004223D7 /* NEONavigationController.swift in Sources */,
+				3842E78D1F65699B0095E4F2 /* NEOWalletsTableViewCell.swift in Sources */,
+				3842E7891F6565230095E4F2 /* NEOWalletsTableViewController.swift in Sources */,
+				3842E7931F6574D70095E4F2 /* NEOAlertView.swift in Sources */,
+				3842E7901F65729E0095E4F2 /* NEOWalletsManager.swift in Sources */,
+				3842E79B1F65B0790095E4F2 /* SAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,6 +594,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "iOS-NEO/iOS-NEO.entitlements";
 				DEVELOPMENT_TEAM = 4FGU9379L5;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "iOS-NEO/Info.plist";
@@ -543,6 +611,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "iOS-NEO/iOS-NEO.entitlements";
 				DEVELOPMENT_TEAM = 4FGU9379L5;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "iOS-NEO/Info.plist";
