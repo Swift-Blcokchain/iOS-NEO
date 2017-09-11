@@ -26,6 +26,7 @@
 		38649AAB1F650999004223D7 /* NeoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38627DA21F65066F00B357D1 /* NeoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38649AB01F653327004223D7 /* NEOMainPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38649AAF1F653327004223D7 /* NEOMainPageTableViewController.swift */; };
 		38649AB21F653560004223D7 /* NEONavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38649AB11F653560004223D7 /* NEONavigationController.swift */; };
+		38969E5D1F66EA620074945C /* NEOReceiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38969E5C1F66EA620074945C /* NEOReceiveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		38649A9C1F6506F8004223D7 /* SwiftBaseX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftBaseX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38649AAF1F653327004223D7 /* NEOMainPageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEOMainPageTableViewController.swift; sourceTree = "<group>"; };
 		38649AB11F653560004223D7 /* NEONavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEONavigationController.swift; sourceTree = "<group>"; };
+		38969E5C1F66EA620074945C /* NEOReceiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEOReceiveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 				3842E7991F659A960095E4F2 /* iOS-NEO.entitlements */,
 				3842E7941F6591B20095E4F2 /* KeychainAccess */,
 				3842E7911F6574BF0095E4F2 /* units */,
+				38969E581F66EA240074945C /* NEOWalletMain */,
 				3842E78E1F65727C0095E4F2 /* NEOManagers */,
 				3842E78B1F65697A0095E4F2 /* NEOWallets */,
 				38627D6E1F65040800B357D1 /* AppDelegate.swift */,
@@ -203,7 +206,6 @@
 				38627D751F65040800B357D1 /* Assets.xcassets */,
 				38627D771F65040800B357D1 /* LaunchScreen.storyboard */,
 				38627D7A1F65040800B357D1 /* Info.plist */,
-				38649AAF1F653327004223D7 /* NEOMainPageTableViewController.swift */,
 				38649AB11F653560004223D7 /* NEONavigationController.swift */,
 			);
 			path = "iOS-NEO";
@@ -243,6 +245,31 @@
 				38649A9C1F6506F8004223D7 /* SwiftBaseX.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38969E581F66EA240074945C /* NEOWalletMain */ = {
+			isa = PBXGroup;
+			children = (
+				38649AAF1F653327004223D7 /* NEOMainPageTableViewController.swift */,
+				38969E591F66EA240074945C /* Receive */,
+				38969E5A1F66EA240074945C /* Transaction */,
+			);
+			path = NEOWalletMain;
+			sourceTree = "<group>";
+		};
+		38969E591F66EA240074945C /* Receive */ = {
+			isa = PBXGroup;
+			children = (
+				38969E5C1F66EA620074945C /* NEOReceiveViewController.swift */,
+			);
+			path = Receive;
+			sourceTree = "<group>";
+		};
+		38969E5A1F66EA240074945C /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Transaction;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,6 +448,7 @@
 				3842E78D1F65699B0095E4F2 /* NEOWalletsTableViewCell.swift in Sources */,
 				3842E7891F6565230095E4F2 /* NEOWalletsTableViewController.swift in Sources */,
 				3842E7931F6574D70095E4F2 /* NEOAlertView.swift in Sources */,
+				38969E5D1F66EA620074945C /* NEOReceiveViewController.swift in Sources */,
 				3842E7901F65729E0095E4F2 /* NEOWalletsManager.swift in Sources */,
 				3842E79B1F65B0790095E4F2 /* SAccount.swift in Sources */,
 			);
